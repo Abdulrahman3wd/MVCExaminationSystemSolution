@@ -28,11 +28,11 @@ namespace Examination.DAL.Data
         public DbSet<Groups> Groups { get; set; }
         public DbSet<QnAs> QnAs { get; set; }
         public DbSet<Students> Students { get; set; }
-        public DbSet<Users> Users { get;}
+        public DbSet<Users> Users { get; set; }
 
         #endregion
 
-      
+
 
     }
 }
