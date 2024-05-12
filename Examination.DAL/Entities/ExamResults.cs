@@ -7,6 +7,7 @@
         public int StudentsId { get; set; }
         public required Students Students { get; set; }
         public int? ExamsId { get; set; }
+        public Exams Exams { get; set; }
         public int QnAsId { get;}
         public QnAs QnAs { get; set; }
 
