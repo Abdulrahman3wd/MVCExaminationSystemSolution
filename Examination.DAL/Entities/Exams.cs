@@ -10,11 +10,11 @@
 
         public int Time {  get; set; }
         public int GroupsId { get; set; }
-        public required Groups Groups { get; set; }
+        public Groups Groups { get; set; } = null!;
 
-        public required ICollection<ExamResults> ExamResults { get; set; } = new HashSet<ExamResults>();
+        public  ICollection<ExamResults> ExamResults { get; set; } = new HashSet<ExamResults>();
 
-        public required ICollection<QnAs> QnAs { get; set; } = new HashSet<QnAs>();
+        public  ICollection<QnAs> QnAs { get; set; } = new HashSet<QnAs>();
 
 
 
