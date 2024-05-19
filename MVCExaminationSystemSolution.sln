@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examination.DAL", "Examination.DAL\Examination.DAL.csproj", "{58840F9C-9D99-498F-B870-738C306C1088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examination.ViewModels", "Examination.ViewModels\Examination.ViewModels.csproj", "{8CE45EF0-6568-4A0A-A90F-AD98583240A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Examination.ViewModels", "Examination.ViewModels\Examination.ViewModels.csproj", "{8CE45EF0-6568-4A0A-A90F-AD98583240A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examination.Bll", "Examination.Bll\Examination.Bll.csproj", "{FDE232E9-3AAB-499B-B646-17C8B8B78126}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8CE45EF0-6568-4A0A-A90F-AD98583240A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CE45EF0-6568-4A0A-A90F-AD98583240A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CE45EF0-6568-4A0A-A90F-AD98583240A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE232E9-3AAB-499B-B646-17C8B8B78126}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE232E9-3AAB-499B-B646-17C8B8B78126}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE232E9-3AAB-499B-B646-17C8B8B78126}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE232E9-3AAB-499B-B646-17C8B8B78126}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
