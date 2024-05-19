@@ -18,7 +18,7 @@ namespace Examination.Bll.Services
         public bool SetGroupIdToStudents(GroupsViewModel vm);
 
         bool SetExamResult(AttendExamViewModel vm);
-        IEnumerable<ResultViewModel> GetResults(int studentId);
+        IEnumerable<ResultViewModel> GetExamResults(int studentId);
         StudentsViewModel GetStudentDetails(int studentId);
         Task<StudentsViewModel> UpdateAsync(StudentsViewModel vm);
     }
